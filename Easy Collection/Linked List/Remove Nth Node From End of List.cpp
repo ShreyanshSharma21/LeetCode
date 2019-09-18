@@ -30,7 +30,7 @@ public:
             head = head->next;
         }else{
         for(int i=0;i<cnt-n-1;i++){
-            if(qq->next!=NULL)
+            // if(qq->next!=NULL) // Not Necessary
             qq=qq->next;
         }
         }
